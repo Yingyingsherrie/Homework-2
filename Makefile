@@ -6,7 +6,7 @@ all: chat
 
 .PHONY: test
 test: chat
-        @./test.sh
+	@./test.sh
 
 chat: chat.o
 	gcc -o chat chat.o -lpthread
